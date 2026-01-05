@@ -8,17 +8,17 @@ body {
 }
 
 input, textarea {
-  border-radius: 15px;
-  border: 1px solid --primary;
-  padding: .75rem .5rem !important;
-  margin-top: 10px !important;
-  margin-bottom: 10px !important;
+  border-radius: 8px;
+  border: 1.5px solid #002644;
+  padding: .6rem .5rem !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
   width: 100%;
   box-sizing: border-box;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
-  color: #fff;
-  background-color: #333;
+  color: #002644;
+  background-color: #fff;
 }
 
 
