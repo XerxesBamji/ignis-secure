@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/tailwind.js"></script>
+    <script src="js/tailwind.config.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="mask-icon" href="img/favicon.svg" color="#A855F7"> <link rel="manifest" href="/site.webmanifest">
+    <title>Ignis Secure</title>
+    <meta name="description" content="IgnisSecure specialises in the complete design, installation, commissioning, and aftercare of fire alarm systems, intruder alarms, CCTV surveillance, and integrated life safety systems for residential and commercial properties across South Wales and South West England.">
+</head>
+
+<body class="bg-white">
+    <main class="">
+        <header class="shadow mb-12">
+            <nav class="flex flex-wrap items-center justify-between w-full lg:py-4 md:py-4 py-2 px-4 text-lg text-gray-700 lg:container ">
+                <div class="md:p-1 p-4">
+                    <a href="index.html">
+                        <img src="/img/ignissecure_logo_black_transparent_trimmed.png" class="md:w-44 w-32">
+                    </a>
+                </div>
+                
+
+                <svg id="menu-button" aria-hidden="true" class="w-8 h-8 cursor-pointer md:hidden block" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                </svg>
+                <span class="sr-only">Toggle sidebar</span>
+                 
+              
+                <!-- Mobile Sidebar -->
+                <div class="shadow fixed top-0 right-0 h-full w-80 bg-[#1c2025] transform translate-x-full transition-transform duration-300 ease-in-out z-50 md:hidden " id="menu">
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-8">
+                            <img src="/img/logo.webp" class="w-40">
+                            <button id="close-menu" class="text-white text-2xl">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                        <ul class="space-y-6">
+                            <li>
+                                <a class="text-white text-lg block hover:text-primary transition-colors cursor-pointer" href="about-us.html">About Us</a>
+                            </li>
+                            <li>
+                                <a class="text-white text-lg block hover:text-primary transition-colors cursor-pointer" href="our-services.html">Our Services</a>
+                            </li>
+                            <li class="mt-8">
+                                <a  href="contactus.html" class="cursor-pointer flex justify-center items-center gap-3 bg-primary hover:bg-[#B22121] text-white px-8 py-4 rounded-md font-bold text-xs uppercase transition-all shadow-lg shadow-purple-900/20 group">
+                                    <i class="fa-solid fa-phone"></i>Contact Us
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4 transition-transform group-hover:translate-x-1">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex md:items-center md:w-auto">
+                    <ul class="flex justify-between lg:text-sm text-xs">
+                        <li>
+                            <a class="md:p-4 py-2 block hover:underline" href="about-us.html">About Us</a>
+                        </li>
+                        <li>
+                            <a class="md:p-4 py-2 block hover:underline" href="our-services.html">Our Services</a>
+                        </li>
+                        <li>
+                            <a class="md:p-4 py-2 block hover:underline" href="contactus.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+             </div>
+           </nav>
+         </header>
+
+
+        <section class="md:mt-16 mt-4 md:mx-6 mx-2">
+            <div class="container">
+                <div class="text-left">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-48 gap-6">
+                        <div class="">
+                            <h1 class="md:text-[4.25rem] text-[2.25rem] font-semibold text-primary">Contact Us</h1>
+                            <div class="flex items-center">
+                                <div class="font-light md:text-sm text-xs text-white mt-2">
+                                    <p class="mb-5 text-2xl"> 
+                                        Email, call, or complete the form below to get in touch with us.
+                                    </p>
+                                    <p class="pb-8 text-xl"> 
+                                        <a href="mailto:jimmyleake910@gmail.com" class="text-primary hover:underline">jimmyleake910@gmail.com</a>
+                                    </p>
+                                    <p class="pb-8 text-xl"> 
+                                        <a href="tel:07713776407" class="text-primary hover:underline">07713776407</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <a href="https://www.facebook.com/people/The-Bark-Bungalow/61555384090614/" target="_blank">
+                                    <i class="fab fa-facebook text-primary fa-2x hover:text-white"></i>
+                                </a>
+                                <a href="https://www.instagram.com/bark_bungalowdogservices/" target="_blank">
+                                    <i class="fab fa-instagram text-primary fa-2x hover:text-white"></i>
+                                </a>
+                                <a href="https://wa.me/07713776407" target="_blank">
+                                    <i class="fab fa-whatsapp text-primary fa-2x hover:text-white"></i>
+                                </a>
+                            </div>
+                            <div class="grid md:grid-cols-3 grid-cols-1 mt-8 gap-2">
+                                <p>
+                                    We're always happy to answer questions, discuss your dog's needs, or help you decide which service is right for you.
+                                </p>
+                                <p class="">
+                                    A few details about your dog and what you’re looking for will help us make sure we give you the right information.
+                                </p>
+                                <p class="">
+                                    Based in Sully, Vale of Glamorgan, we offer a calm, caring, and professional service where your dog's comfort and safety come first.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="lg:px-12 px-0 lg:mt-0 mt-8">
+                            <div class="bg-[#1c2025] px-1 pt-6 pb-12 rounded-lg">
+                                <div class="px-6 py-0">
+                                    <h2 class="md:text-[2.75rem] text-[2.25rem] font-semibold text-primary">Get in touch</h2>
+                                    <p class="text-sm text-white opacity-50">You can reach us at any time</p>
+                                    <form name="contact" method="POST" netlify class="mt-6">
+                                        <div class="grid md:grid-cols-2 grid-cols-1 gap-6">
+                                            <p class="">
+                                                <label>Your Name: <input type="text" name="name" /></label>
+                                            </p>
+                                            <p>
+                                                <label>Your Email: <input type="email" name="email" /></label>
+                                            </p>
+                                        </div>
+                                        <div class="grid md:grid-cols-1 grid-cols-1 gap-6">
+                                            <p>
+                                                <label>Your Phone Number: <input type="tel" name="phone" /></label>
+                                            </p>
+                                        </div>
+                                        <div class="grid md:grid-cols-1 grid-cols-1 gap-6">
+                                            <p>
+                                                <label>Message: <textarea name="message"></textarea></label>
+                                            </p>
+                                        </div>
+                                        <p class="mt-6">
+                                            <button class="bg-primary px-6 py-3 rounded-full text-sm  border-primary border-2 text-black hover:bg-transparent hover:text-primary hover:border w-full" type="submit">Send</button>
+                                        </p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-16 shadow-xl">
+            <iframe src="https://snazzymaps.com/embed/763733" width="100%" height="400px" style="border:none;"></iframe>
+        </section>
+
+        
+    </main>
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="js/app.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/review-carousel.js"></script>
+
+</html>
+
+<!-- https://dribbble.com/shots/23734800-Design-System-Landing-Page-UI -->
