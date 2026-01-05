@@ -65,13 +65,13 @@ input, textarea {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #f7c72b;
+    background: #D62828;
     transition: all 0.3s ease;
     cursor: pointer;
     opacity: .6;
 }
 .carousel-dot.active {
-    background: #fbbf24;
+    background: #D62828;
     width: 10px;
     height: 10px;
     opacity: 1;
@@ -85,7 +85,7 @@ input, textarea {
 }
 
 .show-more-btn {
-    color: #fff;
+    color: #002644;
     cursor: pointer;
     text-decoration: underline;
     font-size: 0.9rem;

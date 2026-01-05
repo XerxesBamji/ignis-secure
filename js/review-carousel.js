@@ -66,10 +66,10 @@ function getReviewCard(review, globalIndex, uniqueId, isActive = true) {
     const scaleClass = isActive ? 'scale-100' : 'scale-90';
     
     return `
-        <div class="review-card bg-[#1c2025] rounded-xl p-6 flex flex-col transition-all duration-500 ${opacityClass} ${scaleClass}">
+        <div class="review-card bg-[#fff] rounded-xl p-6 flex flex-col transition-all duration-500 shadow-xl border border-[#d1d1d1] ${opacityClass} ${scaleClass}">
             <div class="flex items-start justify-between mb-4">
                 <div class="flex items-center gap-1 text-primary text-sm">
-                    ${getStarRating()} <span class="text-[#d7d8d8] text-[15px] ml-3">${daysAgo} days ago</span>
+                    ${getStarRating()} <span class="text-secondary text-[15px] ml-3">${daysAgo} days ago</span>
                 </div>
                 <div class="flex items-center gap-3">
                     <img src="img/google.svg" alt="Google" class="w-3.5 h-3.5">
@@ -77,7 +77,7 @@ function getReviewCard(review, globalIndex, uniqueId, isActive = true) {
             </div>
             
             <div class="flex-1">
-                <p class="text-white text-base leading-relaxed mb-4 ${review.comment.length > 200 ? 'truncate-text' : ''}" id="comment-${uniqueId}">
+                <p class="text-secondary text-base leading-relaxed mb-4 ${review.comment.length > 200 ? 'truncate-text' : ''}" id="comment-${uniqueId}">
                     ${review.comment}
                 </p>
                 ${review.comment.length > 200 && isActive ? `
@@ -91,7 +91,7 @@ function getReviewCard(review, globalIndex, uniqueId, isActive = true) {
                 <div class="w-10 h-10 rounded-full ${getAvatarClass(globalIndex)} flex items-center justify-center text-white font-semibold">
                     ${initial}
                 </div>
-                <span class="text-white font-medium">${review.reviewer.displayName}</span>
+                <span class="text-secondary font-medium">${review.reviewer.displayName}</span>
             </div>
         </div>
     `;
