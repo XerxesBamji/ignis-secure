@@ -21,6 +21,21 @@ tailwind.config = {
         900: '#320907',
       },
 
+      /* 🔵 Secondary – Trust / Security */
+      secondary: {
+        DEFAULT: '#002644',
+        50: '#E6ECF2',
+        100: '#C0D0E0',
+        200: '#99B3CC',
+        300: '#7397B8',
+        400: '#4D7AA3',
+        500: '#002644',
+        600: '#00223D',
+        700: '#001B30',
+        800: '#001423',
+        900: '#000D16',
+      },
+
       /* ⚫ Neutral – Text, backgrounds, UI */
       neutral: {
         50: '#F9FAFB',
