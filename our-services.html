@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/tailwind.js"></script>
+    <script src="js/tailwind.config.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="mask-icon" href="img/favicon.svg" color="#A855F7"> <link rel="manifest" href="/site.webmanifest">
+    <title>Ignis Secure</title>
+    <meta name="description" content="IgnisSecure specialises in the complete design, installation, commissioning, and aftercare of fire alarm systems, intruder alarms, CCTV surveillance, and integrated life safety systems for residential and commercial properties across South Wales and South West England.">
+</head>
+
+<body class="bg-white">
+    <main class="">
+        <header class="shadow mb-12">
+            <nav class="flex flex-wrap items-center justify-between w-full lg:py-4 md:py-4 py-2 px-4 text-lg text-gray-700 lg:container ">
+                <div class="md:p-1 p-4">
+                    <a href="index.html">
+                        <img src="/img/ignissecure_logo_black_transparent_trimmed.png" class="md:w-44 w-32">
+                    </a>
+                </div>
+                
+
+                <svg id="menu-button" aria-hidden="true" class="w-8 h-8 cursor-pointer md:hidden block" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                </svg>
+                <span class="sr-only">Toggle sidebar</span>
+                 
+              
+                <!-- Mobile Sidebar -->
+                <div class="shadow fixed top-0 right-0 h-full w-80 bg-[#1c2025] transform translate-x-full transition-transform duration-300 ease-in-out z-50 md:hidden " id="menu">
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-8">
+                            <img src="/img/logo.webp" class="w-40">
+                            <button id="close-menu" class="text-white text-2xl">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                        <ul class="space-y-6">
+                            <li>
+                                <a class="text-white text-lg block hover:text-primary transition-colors cursor-pointer" href="about-us.html">About Us</a>
+                            </li>
+                            <li>
+                                <a class="text-white text-lg block hover:text-primary transition-colors cursor-pointer" href="our-services.html">Our Services</a>
+                            </li>
+                            <li class="mt-8">
+                                <a href="contactus.html" class="cursor-pointer flex justify-center items-center gap-3 bg-primary hover:bg-[#B22121] text-white px-8 py-4 rounded-md font-bold text-xs uppercase transition-all shadow-lg shadow-purple-900/20 group">
+                                    <i class="fa-solid fa-phone"></i>Contact Us
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4 transition-transform group-hover:translate-x-1">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex md:items-center md:w-auto">
+                    <ul class="flex justify-between lg:text-sm text-xs">
+                        <li>
+                            <a class="md:p-4 py-2 block hover:underline" href="about-us.html">About Us</a>
+                        </li>
+                        <li>
+                            <a class="md:p-4 py-2 block hover:underline" href="our-services.html">Our Services</a>
+                        </li>
+                        <li>
+                            <a class="md:p-4 py-2 block hover:underline" href="contactus.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+             </div>
+           </nav>
+         </header>
+
+
+        <section class="relative w-full bg-white flex items-center overflow-hidden px-6 md:px-12 lg:px-24 lg:py-12 md:py-6 pb-12 font-sans">
+            <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 lg:gap-12 gap-2 items-center">
+                <div class="text-center lg:text-left">
+                    <h1 class="text-3xl md:text-5xl lg:text-6xl font-black text-[#2D2A4A] leading-[1.1] tracking-tight uppercase">
+                        Our <span class="text-primary">Services</span>
+                    </h1>
+                    <p class="mt-6 text-gray-400 text-sm md:text-base max-w-md mx-auto lg:mx-0 leading-relaxed">
+                         At IgnisSecure, we deliver expert fire safety and security system solutions across Wales and South West England.
+                    </p>
+                    <p class="mt-6 text-gray-400 text-sm md:text-base max-w-md mx-auto lg:mx-0 leading-relaxed">
+                        Our experienced team designs, installs, and maintains fully compliant systems that protect your property, people, and peace of mind. 
+                    </p>
+                    <div class="mt-8 flex justify-center lg:justify-start">
+                        <a href="contactus.html" class="flex items-center gap-3 bg-primary hover:bg-[#B22121] text-white px-8 py-4 rounded-md font-bold text-xs uppercase transition-all shadow-lg shadow-purple-900/20 group">
+                            Contact Us
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4 transition-transform group-hover:translate-x-1">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="">
+                    <img src="img/Services/Services-Main.png" class="w-full">
+                </div>
+            </div>
+        </section>
+
+        <section class="border-t border-[#d1d1d1]">
+            <div class="">
+                <!-- Tabs -->
+                <div class="sticky top-0 z-40 border-b border-[#d1d1d1] bg-white">
+                    <div class="container px-4">
+                        <div class="flex gap-4 overflow-x-auto py-4">
+
+                        <button
+                            data-target="security"
+                            class="tab-btn px-5 py-2 rounded-full text-sm font-semibold
+                                bg-gray-100 text-gray-800
+                                hover:bg-primary/10 hover:text-primary
+                                transition">
+                            Security Systems
+                        </button>
+
+                        <button
+                            data-target="fire"
+                            class="tab-btn px-5 py-2 rounded-full text-sm font-semibold
+                                bg-gray-100 text-gray-800
+                                hover:bg-primary/10 hover:text-primary
+                                transition">
+                            Fire Safety Systems
+                        </button>
+
+                        <button
+                            data-target="maintenance"
+                            class="tab-btn px-5 py-2 rounded-full text-sm font-semibold
+                                bg-gray-100 text-gray-800
+                                hover:bg-primary/10 hover:text-primary
+                                transition">
+                            Maintenance & Support
+                        </button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sections -->
+                <section id="security" class="scroll-mt-32 py-24 border-t border-[#d1d1d1]">
+                <!-- Security content -->
+                    <div class="container">
+                        <h2 class="text-3xl md:text-5xl lg:text-6xl font-black text-[#2D2A4A] leading-[1.1] tracking-tight uppercase mb-65">
+                            Security <span class="text-primary">Systems</span>
+                        </h2>
+                        <p class="my-6 text-gray-400 text-sm md:text-base lg:mx-0 leading-relaxed">
+                            Advanced security solutions to protect people, property and assets.
+                        </p>
+                        <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6">
+                            <div class="bg-white border border-[#d1d1d1] p-6 rounded-lg shadow md:text-left text-center">
+                                <img src="/img/Services/ServicesCamera.png" class="h-32 w-32 md:mx-0 mx-auto">
+                                <h3 class="my-4 text-xl text-black font-semibold">CCTV Installation & <br class="md:block hidden">Monitoring</h3>
+                                <p class="text-gray-400 text-sm md:text-base lg:mx-0 leading-relaxed">
+                                    High-definition CCTV systems with live remote access, playback, and recording features - ideal for crime prevention and property monitoring.
+                                </p>
+                            </div>
+                            <div class="bg-white border border-[#d1d1d1] p-6 rounded-lg shadow md:text-left text-center">
+                                <img src="/img/Services/Services-Alarm.png" class="h-32 w-32 md:mx-0 mx-auto">
+                                <h3 class="my-4 text-xl text-black font-semibold">Intruder Alarm <br class="md:block hidden">Systems</h3>
+                                <p class="text-gray-400 text-sm md:text-base lg:mx-0 leading-relaxed">
+                                    Smart intruder alarms with motion detection, entry sensors, and mobile notifications to protect homes and businesses from unauthorized access.
+                                </p>
+                            </div>
+                            <div class="bg-white border border-[#d1d1d1] p-6 rounded-lg shadow md:text-left text-center">
+                                <img src="/img/Services/Services-Keypad.png" class="h-32 w-32 md:mx-0 mx-auto">
+                                <h3 class="my-4 text-xl text-black font-semibold">Access Control  <br class="md:block hidden">Systems</h3>
+                                <p class="text-gray-400 text-sm md:text-base lg:mx-0 leading-relaxed">
+                                    Keypad, fob, card, and biometric access control systems for secure, controlled entry to your building or site.
+                                </p>
+                            </div>
+                            <div class="bg-white border border-[#d1d1d1] p-6 rounded-lg shadow md:text-left text-center">
+                                <img src="/img/Services/Services-Gate.png" class="h-32 w-32 md:mx-0 mx-auto">
+                                <h3 class="my-4 text-xl text-black font-semibold">Automated Gates & <br class="md:block hidden">Barriers</h3>
+                                <p class="text-gray-400 text-sm md:text-base lg:mx-0 leading-relaxed">
+                                    Secure gate automation, bollards, and traffic barrier systems designed to control vehicle access and enhance perimeter protection.
+                                </p>
+                            </div>
+                        </div>
+                    </div> 
+                </section>
+
+                <section id="fire" class="scroll-mt-32 py-24 bg-gray-50 border-t border-[#d1d1d1]">
+                <!-- Fire content -->
+                    <div class="container">
+                        <h2 class="text-3xl md:text-5xl lg:text-6xl font-black text-[#2D2A4A] leading-[1.1] tracking-tight uppercase mb-65">
+                           <span class="text-primary">Fire</span> Safety Systems
+                        </h2>
+                        <p class="my-6 text-gray-400 text-sm md:text-base lg:mx-0 leading-relaxed">
+                            Fully compliant fire safety systems designed, installed, and maintained by certified engineers.
+                        </p>
+                        <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6">
+                            <div class="bg-white border border-[#d1d1d1] p-6 rounded-lg shadow md:text-left text-center">
+                                <img src="/img/Services/Services-Fire.png" class="h-32 w-32 md:mx-0 mx-auto">
+                                <h3 class="my-4 text-xl text-black font-semibold">Fire Alarm Installation & <br class="md:block hidden">Maintenance</h3>
+                                <p class="text-gray-400 text-sm md:text-base lg:mx-0 leading-relaxed">
+                                    Design, installation, and regular servicing of BS5839-1:2025 -compliant fire alarm systems for residential, commercial, and industrial properties. 
+                                </p>
+                            </div>
+                            <div class="bg-white border border-[#d1d1d1] p-6 rounded-lg shadow md:text-left text-center">
+                                <img src="/img/Services/Services-FireBlanket.png" class="h-32 w-32 md:mx-0 mx-auto">
+                                <h3 class="my-4 text-xl text-black font-semibold">Fire Extinguishers & <br class="md:block hidden">Safety Equipment</h3>
+                                <p class="text-gray-400 text-sm md:text-base lg:mx-0 leading-relaxed">
+                                    Certified supply and maintenance of fire extinguishers, fire blankets, and safety signage to meet all fire safety regulations. 
+                                </p>
+                            </div>
+                            <div class="bg-white border border-[#d1d1d1] p-6 rounded-lg shadow md:text-left text-center">
+                                <img src="/img/Services/Services-LightExit.png" class="h-32 w-32 md:mx-0 mx-auto">
+                                <h3 class="my-4 text-xl text-black font-semibold">Emergency Lighting <br class="md:block hidden">Systems</h3>
+                                <p class="text-gray-400 text-sm md:text-base lg:mx-0 leading-relaxed">
+                                    Installation of emergency lighting to ensure safe evacuation routes during power failures, in full compliance with BS 5266 standards. 
+                                </p>
+                            </div>
+                            <div class="bg-white border border-[#d1d1d1] p-6 rounded-lg shadow md:text-left text-center">
+                                <img src="/img/Services/Services-Exit.png" class="h-32 w-32 md:mx-0 mx-auto">
+                                <h3 class="my-4 text-xl text-black font-semibold">Fire Risk <br class="md:block hidden">Assessments</h3>
+                                <p class="text-gray-400 text-sm md:text-base lg:mx-0 leading-relaxed">
+                                    Comprehensive fire risk assessments by qualified professionals to help you meet legal obligations and reduce risk. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="maintenance" class="scroll-mt-32 py-24 border-t border-[#d1d1d1]">
+                <!-- Maintenance content -->
+                    <div class="container">
+                        <h2 class="text-3xl md:text-5xl lg:text-6xl font-black text-[#2D2A4A] leading-[1.1] tracking-tight uppercase mb-65">
+                            Maintenance & <span class="text-primary">Support</span>
+                        </h2>
+                        <p class="my-6 text-gray-400 text-sm md:text-base lg:mx-0 leading-relaxed">
+                             Regular preventative maintenance and 24/7 emergency support to ensure your fire and security systems stay reliable, efficient, and fully functional. 
+                        </p>
+                        <a href="contactus.html" class="flex max-w-max mt-6 gap-3 bg-secondary hover:bg-bg-secondary-700 text-white px-8 py-4 rounded-md font-bold text-xs uppercase transition-all shadow-lg shadow-purple-900/20 group">
+                            Request Maintenance Support
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4 transition-transform group-hover:translate-x-1">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                            </svg>
+                        </a>
+                        <!-- <div class="flex items-center md:gap-12 gap-0">
+                            <img src="/img/Services/Services-Maintenance.png" class="h-50 w-50 md:block hidden">
+                            <div class="bg-white border border-[#d1d1d1] p-6 rounded-lg shadow">
+                                <img src="/img/Services/Services-Maintenance.png" class="h-32 w-32 md:hidden block md:mb-0 mb-6">
+                                <h3 class="mb-6 text-xl text-black font-semibold"">System Servicing & Repairs</h3>
+                                <ul class="list-inside list-disc disc-primary text-secondary text-gray-400 text-sm md:text-base lg:mx-0 leading-relaxed">
+                                    <li>
+                                        Planned preventative maintenance
+                                    </li>
+                                    <li>
+                                        Emergency call-outs
+                                    </li>
+                                    <li>
+                                        Fault diagnosis & repairs
+                                    </li>
+                                    <li>
+                                        Compliance servicing & reporting
+                                    </li>
+                                </ul>
+                                <a href="contactus.html" class="flex max-w-max mt-6 gap-3 bg-primary hover:bg-[#B22121] text-white px-8 py-4 rounded-md font-bold text-xs uppercase transition-all shadow-lg shadow-purple-900/20 group">
+                                    Get in touch
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4 transition-transform group-hover:translate-x-1">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div> -->
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="js/app.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/review-carousel.js"></script>
+<script>
+  const tabs = document.querySelectorAll('.tab-btn');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const section = document.getElementById(tab.dataset.target);
+
+      section.scrollIntoView({ behavior: 'smooth' });
+
+      tabs.forEach(t => {
+        t.classList.remove('bg-primary', 'text-white');
+        t.classList.add('text-primary');
+      });
+
+      tab.classList.add('bg-primary', 'text-white');
+      tab.classList.remove('text-primary');
+    });
+  });
+</script>
+</html>
+
+<!-- https://dribbble.com/shots/23734800-Design-System-Landing-Page-UI -->
